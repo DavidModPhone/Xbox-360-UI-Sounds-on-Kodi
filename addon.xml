@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.xbox360" version="1.0.0" name="Xbox 360 UI Sounds" provider-name="DMPKodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Xbox 360 UI Sounds</summary>
+    <description lang="en">Xbox 360 UI Sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
