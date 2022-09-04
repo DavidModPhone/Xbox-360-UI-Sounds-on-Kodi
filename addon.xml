@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="resource.uisounds.xbox360" version="1.0.0" name="Xbox 360 UI Sounds" provider-name="DMPKodi">
+<addon id="resource.uisounds.xbox360" version="1.0.0" name="Xbox 360 UI Sounds" provider-name="DavidModPhone">
   <requires>
     <import addon="kodi.resource" version="1.0.0"/>
   </requires>
   <extension point="kodi.resource.uisounds"/>
   <extension point="kodi.addon.metadata">
-    <summary lang="en">Xbox 360 UI Sounds</summary>
-    <description lang="en">Xbox 360 UI Sounds</description>
+    <summary lang="en">A GUI Sound Add-on that plays the Xbox 360 UI Sounds on Kodi</summary>
+    <description lang="it">Un componente aggiuntivo del suono dell'interfaccia grafica che riproduce i suoni dell'interfaccia Xbox 360 su Kodi</description>
+<forum>https://forum.kodi.tv/showthread.php?tid=369505</forum>
+<source>https://github.com/DavidModPhone/Xbox-360-UI-Sounds-on-Kodi</source>
     <platform>all</platform>
+    <assets>
+   <icon>resources/icon.png</icon>
+   <fanart>resources/fanart.png</fanart>
+   </assets>
   </extension>
 </addon>
